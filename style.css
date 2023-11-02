@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* General */
+.contanier {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+
+.header .contanier  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .contanier .menu , 
+.header .contanier .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.header .contanier .menu li a {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.header .contanier .actions p .fa-cart-shopping {
+    color: black;
+}
+
+.header .contanier .actions p .fa-heart  {
+    color: red;
+}
+
+/* Hero */
+
+.hero {
+    
+    background-image: url(./images/frame.bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 190px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .contanier .title {
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.hero .contanier .subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 12px 0 28px;
+}
+
+.hero .contanier .btn {
+    outline: 0;
+    background: 0;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
