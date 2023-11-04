@@ -94,3 +94,115 @@ body {
     font-weight: 400;
     cursor: pointer;
 }
+
+/* Design */
+.design .contanier .text-content {
+    text-align: center;
+}
+
+.design .contanier .text-content .title {
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.design .contanier .text-content .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a0a0a0;
+    margin: 23px 0 26px;
+}
+
+.design .contanier .text-content .btn {
+    font-size: 13px;
+    font-weight: 400;
+    outline: 0;
+    background: 0;
+    border: 0;
+    color: black;
+    cursor: pointer;
+
+}
+.design .contanier .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design .contanier .wrapper .item {
+    text-align: center;
+}
+
+.design .contanier .wrapper .item img {
+    display: flex;
+    width: 658px;
+    height: 441px;
+}
+
+.design .contanier .wrapper .item h3 {
+    font-size: 27px;
+    font-weight: 400;
+    margin: 48px 0 23px;
+}
+
+.design .contanier .wrapper .item .btn {
+    background: 0;
+    outline: 0;
+    border: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+.products {
+    padding: 100px 0;
+}
+.products .contanier .text-content {
+    text-align: center;
+}
+
+.products .contanier .text-content .title {
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.products .contanier .text-content .subtitle {
+    font-size: 15px;
+    color: #a0a0a0;
+    margin: 16px 0 40px;
+}
+
+.products .contanier .text-content .dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.products .contanier .text-content .dots li {
+    width: 7px;
+    height: 7px;
+    background: #000000;
+
+}
+
+.products .contanier .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.products .contanier .wrapper .card .image-block img {
+    width: 310px;
+    height: 434px;
+}
+
+.products .contanier .wrapper .card .name {
+    font-size: 13px;
+    color: #a0a0a0;
+    margin: 22px 0 25px;
+
+}
+
+.products .contanier .wrapper .card .price {
+    font-size: 12px;
+    color: #a0a0a0;
+}
