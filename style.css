@@ -206,3 +206,133 @@ body {
     font-size: 12px;
     color: #a0a0a0;
 }
+
+/* Office styles */
+
+
+.office {
+    background: url(./images/home\ office\ bg.svg) no-repeat center / cover;
+    padding: 181px 0;
+    text-align: center;
+    color: #fff;
+}
+.office .contanier .text-content .title {
+    font-size: 66px;
+    font-weight: 400;
+}
+.office .contanier .text-content .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0 30px;
+}
+
+.office .contanier .text-content .btn {
+    border: 0;
+    background: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* Way - garaj */
+
+.way {
+    margin: 120px 0 40px;
+    text-align: center;
+}
+
+.way .contanier .text-content .title {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.way .contanier .text-content .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a0a0a0;
+    margin: 23px auto;
+    width: 777px;
+}
+
+
+/* Staff styles */
+
+.staff .contanier {
+    width: 1365px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.staff .contanier .title {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.staff .contanier .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a0a0a0;
+    width: 789px;
+    margin: 23px auto 79px;
+}
+
+.staff .contanier .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 27px;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.text-content .contanier .title {
+    font-size: 34px;
+    font-weight: 400;
+    margin: 96px 0 65px;
+}
+
+.text-content .contanier .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 121px;
+}
+
+/* Design inspires */
+
+
+.design-inspires {
+    margin-bottom: 39px;
+}
+    
+
+
+
+.design-inspires .contanier {
+    width: 1340px;
+    height: 354px;
+    background-color: #9AA8B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.design-inspires .contanier .title {
+    font-size: 43px;
+    font-weight: 400;
+    color: #fff;
+    margin: 24px 0px;
+}
+
+
+.design-inspires .contanier .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
